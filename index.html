@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+    <title>Portfolio by Scott Coffman</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5db21ba9c6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/site.css">
+    <link rel="icon" type="image/png" href="/img/favicons/favicon-32x32.png">
+
+</head>
+
+<body class="d-flex flex-column h-100">
+    <!-- Nav Section -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#about"><img src="/img/favicons/favicon-32x32.png" class="d-inline-block align-text-top"
+                    alt="Scott Coffman Logo" width="30" height="24"> Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#about">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testamonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Main Section -->
+    <main class="flex-shrink-0" id="about">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row g-5 py-5 row-cols-1 row-cols-lg-2">
+                <div class="col order-last order-lg-first text-light">
+                    <h4 class="nametext mt-5"> I am
+                        <span class="mt-5 txt-rotate" data-period="2000"
+                            data-rotate='[ "Scott Coffman.", "a developer.", "a freelancer." ]'>
+                        </span>
+                    </h4>
+                    <div class="col lead content-description">
+                        <p>I am a freelancer based in West Virginia and I have been building websites for years. I
+                            help convert a vision and an idea into meaningful and useful products. Having a sharp
+                            eye for product evolution helps me prioritize tasks, iterate fast and deliver faster.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Portfolio Section -->
+    <!-- TODO: needing some portfolio work to display -->
+    <!-- Testamonials Section -->
+    <!-- TODO: Asking current Linkedin testimonials if I can use it on my site -->
+    <!-- Blog Section -->
+    <!-- TODO: needing to setup blog -->
+    <!-- Contact Section -->
+    <div class="container mt-5">
+        <h1 class="text-center text-light" id="contact">Contact Me</h1>
+        <div class="border rounded-3 shadow-lg p-2 bg-light">
+            <form name="ToDoContact" method="POST" data-netlify=true data-netlify-recaptcha="true">
+                <div class="row">
+                    <div class="col">
+                        <label class="form-label">First Name</label>
+                        <input type="text" name="firstName" class="form-control rounded-3" placeholder="First Name"
+                            aria-label="First Name" required>
+                    </div>
+                    <div class="col">
+                        <label class="form-label">Last Name</label>
+                        <input type="text" name="lastName" class="form-control rounded-3" placeholder="Last Name"
+                            aria-label="Last Name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label class="form-label">Email</label>
+                        <input type="email" name="email" class="form-control rounded-3" placeholder="Email" aria-label="Email">
+                    </div>
+                    <div class="col">
+                        <label class="form-label">Phone</label>
+                        <input type="tel" name="phone" class="form-control rounded-3" placeholder="Phone" aria-label="Phone">
+                    </div>
+                </div>
+                <div class="row mb-1">
+                    <div class="col">
+                        <label class="form-label">Subject</label>
+                        <input type="text" name="subject" class="form-control rounded-3" placeholder="Subject"
+                            aria-label="Subject" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label class="form-label">Message</label>
+                        <textarea type="text" name="message" class="form-control" placeholder="Message"
+                            aria-label="Message" required></textarea>
+                    </div>
+                </div>
+                <div data-netlify-recaptcha="true"></div>
+                <button type="submit" class="rounded-3 btn btn-primary mt-2">Submit
+                </button>
+            </form>
+        </div>
+
+    </div>
+    <!-- Footer Section -->
+    <!-- Footer Section -->
+    <footer class="footer mt-auto py-3">
+        <div class="container-fluid">
+            <div class="row rolw-cols-1 row-cols-lg-3 gy-2">
+                <div class="col d-flex align-items-center justify-content-start justify-content-lg-center">
+                    <img src="/img/name_with_logo_blue2.svg" alt="Scott Coffman Logo" width="100vw">
+                </div>
+                <div class="col order-last order-lg-first text-light">
+                    <div class="col"><span class="text-muted">&copy;2021 scott@coffmantechnologies.com</span></div>
+                </div>
+                <div class="col d-flex align-items-center justify-content-start justify-content-lg-end">
+                    <div class="row">
+                        <div class="col social"><a href="https://www.linkedin.com/in/randycoffman" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></div>
+                        <div class="col social"><a href="https://github.com/randyscottcoffman" target="_blank"><i class="fab fa-github fa-2x"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+    <script src="/js/site.js"></script>
+</body>
+
+</html>
