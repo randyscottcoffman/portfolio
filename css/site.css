@@ -64,4 +64,8 @@ footer.social>a:hover{
 
 main>.container {
     padding: 60px 15px 0;
-}​
+}
+
+.contact-form-area {
+    margin-bottom: 5vh;
+}
